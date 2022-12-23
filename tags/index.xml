@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on J Rave</title>
-    <link>http://example.org/tags/</link>
+    <link>https://jrave.dev/tags/</link>
     <description>Recent content in Tags on J Rave</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2022 J Rave</copyright><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2022 J Rave</copyright><atom:link href="https://jrave.dev/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
