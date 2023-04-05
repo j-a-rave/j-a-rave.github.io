@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on J Rave</title>
+    <link>https://jrave.dev/blog/</link>
+    <description>Recent content in Blogs on J Rave</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2022 J Rave</copyright>
+    <lastBuildDate>Tue, 04 Apr 2023 23:52:46 -0500</lastBuildDate><atom:link href="https://jrave.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brain Dump: Dialogue vs Conversation in Textile</title>
+      <link>https://jrave.dev/blog/dialogue_4-23/</link>
+      <pubDate>Tue, 04 Apr 2023 23:52:46 -0500</pubDate>
+      
+      <guid>https://jrave.dev/blog/dialogue_4-23/</guid>
+      <description>I&amp;rsquo;ll try to reign this in as much as possible. Bear in mind this is somewhere between a design doc and a stream of consciousness.
+Dialogue trees would be a wild way to speak to another human being. And yet, they&amp;rsquo;re ubiquitous in the world of video games.
+They give the player ultimate agency over the information given in an interaction. The best dialogue systems in this style make it clear when a given option will move the conversation forward and give the player necessary information, or when it will give the player additional non-vital details.</description>
+      <content>&lt;p&gt;I&amp;rsquo;ll try to reign this in as much as possible. Bear in mind this is somewhere between a design doc and a stream of consciousness.&lt;/p&gt;
+&lt;h1 id=&#34;dialogue-trees-would-be-a-wild-way-to-speak-to-another-human-being&#34;&gt;Dialogue trees would be a wild way to speak to another human being.&lt;/h1&gt;
+&lt;p&gt;And yet, they&amp;rsquo;re ubiquitous in the world of video games.&lt;/p&gt;
+&lt;p&gt;They give the player ultimate agency over the information given in an interaction. The best dialogue systems in this style make it clear when a given option will move the conversation forward and give the player necessary information, or when it will give the player additional non-vital details.&lt;/p&gt;
+&lt;p&gt;Players need to buy in and voluntarily get more out of a conversation, or otherwise can breeze through an interaction and get back to the gameplay.&lt;/p&gt;
+&lt;h1 id=&#34;how-can-we-do-better&#34;&gt;How can we do better?&lt;/h1&gt;
+&lt;p&gt;When conversation &lt;em&gt;is&lt;/em&gt; gameplay, simply following the heuristic isn&amp;rsquo;t nearly good enough.&lt;/p&gt;
+&lt;p&gt;In a visual novel, roleplaying game, or social deduction game, some of the most important gameplay revolves around speaking to the game&amp;rsquo;s characters. More importantly, &lt;em&gt;listening&lt;/em&gt; to them. But we&amp;rsquo;re still stuck on the rails.&lt;/p&gt;
+&lt;p&gt;The trick is to move away from the idea of dialogue, and toward conversation.&lt;/p&gt;
+&lt;h1 id=&#34;whats-the-difference&#34;&gt;What&amp;rsquo;s the difference?&lt;/h1&gt;
+&lt;p&gt;Dialogue is performance. It exists for the benefit of an audience. Using a typical dialog tree, the player might be able to direct how much of a dialogue they see, or whether they see the &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad&amp;rdquo; version of the dialogue, but regardless they&amp;rsquo;ll be fed similar information.&lt;/p&gt;
+&lt;p&gt;Conversation is a living thing. It exists for the benefit of its participants. In this case, both the player and the NPC would exchange information. What a character knows will be affected by what the player divulges, and vice versa.&lt;/p&gt;
+&lt;h1 id=&#34;so-no-dialogue&#34;&gt;So, no dialogue?&lt;/h1&gt;
+&lt;p&gt;Yes dialogue! But in Textile, we must make a distinction.&lt;/p&gt;
+&lt;p&gt;Conversation: Interaction between the player and one or more characters, driven systemically by character knowledge and motivation as well as player input. Mushroom and/or venom writing, per Emily Short.&lt;/p&gt;
+&lt;p&gt;Dialogue: Written exchange between two or more characters. Highly curated or non-generated; beeswax writing, per Emily Short.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

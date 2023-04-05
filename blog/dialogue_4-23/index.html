@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Brain Dump: Dialogue vs Conversation in Textile :: J Rave</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I&amp;rsquo;ll try to reign this in as much as possible. Bear in mind this is somewhere between a design doc and a stream of consciousness.
+Dialogue trees would be a wild way to speak to another human being. And yet, they&amp;rsquo;re ubiquitous in the world of video games.
+They give the player ultimate agency over the information given in an interaction. The best dialogue systems in this style make it clear when a given option will move the conversation forward and give the player necessary information, or when it will give the player additional non-vital details." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://jrave.dev/blog/dialogue_4-23/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://jrave.dev/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://jrave.dev/img/theme-colors/yellow.png">
+  <link rel="apple-touch-icon" href="https://jrave.dev/img/theme-colors/yellow.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Brain Dump: Dialogue vs Conversation in Textile">
+<meta property="og:description" content="I&amp;rsquo;ll try to reign this in as much as possible. Bear in mind this is somewhere between a design doc and a stream of consciousness.
+Dialogue trees would be a wild way to speak to another human being. And yet, they&amp;rsquo;re ubiquitous in the world of video games.
+They give the player ultimate agency over the information given in an interaction. The best dialogue systems in this style make it clear when a given option will move the conversation forward and give the player necessary information, or when it will give the player additional non-vital details." />
+<meta property="og:url" content="https://jrave.dev/blog/dialogue_4-23/" />
+<meta property="og:site_name" content="J Rave" />
+
+  
+    <meta property="og:image" content="https://jrave.dev/img/favicon/yellow.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-04-04 23:52:46 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="yellow">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+  <a rel="me" style="display:none" href="https://mastodon.gamedev.place/@jrave"></a>
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    J Rave
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="mailto:contact@jrave.dev">Email me</a></li>
+        
+      
+        
+          <li><a href="https://github.com/j-a-rave/">GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/j-rave-350182144/">LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.gamedev.place/@jrave">Mastodon</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="mailto:contact@jrave.dev">Email me</a></li>
+        
+      
+        
+          <li><a href="https://github.com/j-a-rave/">GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/j-rave-350182144/">LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.gamedev.place/@jrave">Mastodon</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://jrave.dev/blog/dialogue_4-23/">Brain Dump: Dialogue vs Conversation in Textile</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2023-04-04 ::
+        
+      </time>
+    
+    
+      <span class="post-author">J</span>
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>I&rsquo;ll try to reign this in as much as possible. Bear in mind this is somewhere between a design doc and a stream of consciousness.</p>
+<h1 id="dialogue-trees-would-be-a-wild-way-to-speak-to-another-human-being">Dialogue trees would be a wild way to speak to another human being.<a href="#dialogue-trees-would-be-a-wild-way-to-speak-to-another-human-being" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>And yet, they&rsquo;re ubiquitous in the world of video games.</p>
+<p>They give the player ultimate agency over the information given in an interaction. The best dialogue systems in this style make it clear when a given option will move the conversation forward and give the player necessary information, or when it will give the player additional non-vital details.</p>
+<p>Players need to buy in and voluntarily get more out of a conversation, or otherwise can breeze through an interaction and get back to the gameplay.</p>
+<h1 id="how-can-we-do-better">How can we do better?<a href="#how-can-we-do-better" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>When conversation <em>is</em> gameplay, simply following the heuristic isn&rsquo;t nearly good enough.</p>
+<p>In a visual novel, roleplaying game, or social deduction game, some of the most important gameplay revolves around speaking to the game&rsquo;s characters. More importantly, <em>listening</em> to them. But we&rsquo;re still stuck on the rails.</p>
+<p>The trick is to move away from the idea of dialogue, and toward conversation.</p>
+<h1 id="whats-the-difference">What&rsquo;s the difference?<a href="#whats-the-difference" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Dialogue is performance. It exists for the benefit of an audience. Using a typical dialog tree, the player might be able to direct how much of a dialogue they see, or whether they see the &ldquo;good&rdquo; or &ldquo;bad&rdquo; version of the dialogue, but regardless they&rsquo;ll be fed similar information.</p>
+<p>Conversation is a living thing. It exists for the benefit of its participants. In this case, both the player and the NPC would exchange information. What a character knows will be affected by what the player divulges, and vice versa.</p>
+<h1 id="so-no-dialogue">So, no dialogue?<a href="#so-no-dialogue" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Yes dialogue! But in Textile, we must make a distinction.</p>
+<p>Conversation: Interaction between the player and one or more characters, driven systemically by character knowledge and motivation as well as player input. Mushroom and/or venom writing, per Emily Short.</p>
+<p>Dialogue: Written exchange between two or more characters. Highly curated or non-generated; beeswax writing, per Emily Short.</p>
+
+      </div></div>
+
+  
+    
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2022 J Rave</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
