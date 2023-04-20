@@ -37,7 +37,7 @@ They give the player ultimate agency over the information given in an interactio
     </item>
     
     <item>
-      <title>Hi, I&#39;m J.</title>
+      <title>About</title>
       <link>https://jrave.dev/about/hello/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -48,6 +48,21 @@ I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they
       <content>&lt;p&gt;I&amp;rsquo;m a game developer, software engineer, and all-around pusher of buttons.&lt;/p&gt;
 &lt;p&gt;My work is mainly in C/C++, with a healthy dose of other languages. I make games and tools for game developers.&lt;/p&gt;
 &lt;p&gt;I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they/them), a Zen Buddhist, and a hobbyist musician / cook / linguist / all sorts of things.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Hi, I&#39;m J. This is a website.</title>
+      <link>https://jrave.dev/frontpage/frontpage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrave.dev/frontpage/frontpage/</guid>
+      <description>I write software and make games, and I like to think I&amp;rsquo;m pretty good at it. I&amp;rsquo;m currently employed at Torn Banner Studios.
+Check the links above for more about me and my professional work, my personal dev blog, and other ways to find me online.
+✌ </description>
+      <content>&lt;p&gt;I write software and make games, and I like to think I&amp;rsquo;m pretty good at it. I&amp;rsquo;m currently employed at &lt;a href=&#34;https://tornbanner.com&#34;&gt;Torn Banner Studios&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check the links above for more about me and my professional work, my personal dev blog, and other ways to find me online.&lt;/p&gt;
+&lt;h1 id=&#34;heading&#34;&gt;✌&lt;/h1&gt;
 </content>
     </item>
     

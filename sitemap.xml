@@ -13,9 +13,13 @@
   </url><url>
     <loc>https://jrave.dev/about/</loc>
   </url><url>
+    <loc>https://jrave.dev/about/hello/</loc>
+  </url><url>
     <loc>https://jrave.dev/categories/</loc>
   </url><url>
-    <loc>https://jrave.dev/about/hello/</loc>
+    <loc>https://jrave.dev/frontpage/</loc>
+  </url><url>
+    <loc>https://jrave.dev/frontpage/frontpage/</loc>
   </url><url>
     <loc>https://jrave.dev/about/projects/</loc>
   </url><url>
