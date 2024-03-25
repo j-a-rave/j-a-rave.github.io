@@ -28,24 +28,27 @@ I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jrave.dev/about/projects/</guid>
-      <description>Textile Very early work-in-progress. An engine-agnostic framework for systemic narrative games, plus an editor for narrative content. This is my current passion project.
-The goal of Textile is to create narrative experiences with nuance, where both writers and players have more agency to make creative choices.
-Textile is being developed alongside another personal project, a yet-unannounced narrative game.
-Torn Banner Studios I&amp;rsquo;m currently employed here as a Tools Programmer. No details to share just yet!</description>
-      <content>&lt;h1 id=&#34;textile&#34;&gt;Textile&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Very early work-in-progress.&lt;/em&gt; An engine-agnostic framework for systemic narrative games, plus an editor for narrative content. This is my current passion project.&lt;/p&gt;
-&lt;p&gt;The goal of Textile is to create narrative experiences with nuance, where both writers and players have more agency to make creative choices.&lt;/p&gt;
-&lt;p&gt;Textile is being developed alongside another personal project, a yet-unannounced narrative game.&lt;/p&gt;
-&lt;h1 id=&#34;torn-banner-studios&#34;&gt;Torn Banner Studios&lt;/h1&gt;
-&lt;p&gt;I&amp;rsquo;m currently employed here as a Tools Programmer. No details to share just yet!&lt;/p&gt;
-&lt;h1 id=&#34;saints-row-2022&#34;&gt;Saints Row (2022)&lt;/h1&gt;
+      <description>Professional Spry Fox - ??? Torn Banner - Various Tools Mainly, I created and supported a proprietary tool called Submit Helper, a custom P4V tool designed to kick off preflight builds, manage Jira tickets, open/close code reviews, and anything else needed before things got tossed into the depot.
+I also supported tool needs for animators, created a framework for building automated tests in UE5, and a few other things.
+Volition - Saints Row (2022) My first shipped AAA title - I worked on this from pre-production to DLC.</description>
+      <content>&lt;h1 id=&#34;professional&#34;&gt;Professional&lt;/h1&gt;
+&lt;h4 id=&#34;spry-fox---&#34;&gt;Spry Fox - ???&lt;/h4&gt;
+&lt;h4 id=&#34;torn-banner---various-tools&#34;&gt;Torn Banner - Various Tools&lt;/h4&gt;
+&lt;p&gt;Mainly, I created and supported a proprietary tool called &lt;strong&gt;Submit Helper&lt;/strong&gt;, a custom P4V tool designed to kick off preflight builds, manage Jira tickets, open/close code reviews, and anything else needed before things got tossed into the depot.&lt;/p&gt;
+&lt;p&gt;I also supported tool needs for animators, created a framework for building automated tests in UE5, and a few other things.&lt;/p&gt;
+&lt;h4 id=&#34;volition---saints-row-2022&#34;&gt;Volition - Saints Row (2022)&lt;/h4&gt;
 &lt;p&gt;My first shipped AAA title - I worked on this from pre-production to DLC.&lt;/p&gt;
 &lt;p&gt;The realtime cinematics system was &lt;em&gt;my baby&lt;/em&gt;. In addition to implementing anything the cinematic artists needed, I also heavily supported the good folks in the lighting, VFX, and audio teams.&lt;/p&gt;
 &lt;p&gt;I was also the sole dedicated accessibility programmer, so I owned features like alternative control methods, blood &amp;amp; gore, subtitles, and some challenge level settings.&lt;/p&gt;
-&lt;h1 id=&#34;volitions-ctg-editor&#34;&gt;Volition&amp;rsquo;s CTG Editor&lt;/h1&gt;
+&lt;h4 id=&#34;volition---ctg-editor&#34;&gt;Volition - CTG Editor&lt;/h4&gt;
 &lt;p&gt;I created and supported a timeline-based scripting editor for cinematic artists, so they could do things like show/hide objects, change the time of day, or load/unload parts of the open world, over the course of a cinematic.&lt;/p&gt;
 &lt;p&gt;I also owned a few other features relating to object spawners and batch editing game components.&lt;/p&gt;
-&lt;h1 id=&#34;game-jams&#34;&gt;Game Jams&lt;/h1&gt;
+&lt;h1 id=&#34;personal&#34;&gt;Personal&lt;/h1&gt;
+&lt;h4 id=&#34;textile&#34;&gt;Textile&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Very early work-in-progress.&lt;/em&gt; An engine-agnostic framework for systemic narrative games, plus an editor for narrative content. This is my current passion project.&lt;/p&gt;
+&lt;p&gt;The goal of Textile is to create narrative experiences with nuance, where both writers and players have more agency to make creative choices.&lt;/p&gt;
+&lt;p&gt;Textile is being developed alongside another personal project, a yet-unannounced narrative game.&lt;/p&gt;
+&lt;h4 id=&#34;game-jams&#34;&gt;Game Jams&lt;/h4&gt;
 &lt;p&gt;Here are a couple of games I worked on for a weekend or so.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://willridenourgames.itch.io/7-didnt-8-9&#34;&gt;7 Didn&amp;rsquo;t 8 9&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://j-a-rave.itch.io/our-friend-sloth&#34;&gt;Our friend Sloth&lt;/a&gt;&lt;/p&gt;
