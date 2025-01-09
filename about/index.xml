@@ -14,10 +14,10 @@
       
       <guid>https://jrave.dev/about/hello/</guid>
       <description>I&amp;rsquo;m a game developer, software engineer, and all-around pusher of buttons.
-My work is mainly in C/C++, with a healthy dose of other languages. I make games and tools for game developers.
+I make games and tools for game developers, working in everything from C/C++ to TypeScript, from MEL to VBA.
 I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they/them), a Zen Buddhist, and a hobbyist musician / cook / linguist / all sorts of things.</description>
       <content>&lt;p&gt;I&amp;rsquo;m a game developer, software engineer, and all-around pusher of buttons.&lt;/p&gt;
-&lt;p&gt;My work is mainly in C/C++, with a healthy dose of other languages. I make games and tools for game developers.&lt;/p&gt;
+&lt;p&gt;I make games and tools for game developers, working in everything from C/C++ to  TypeScript, from MEL to VBA.&lt;/p&gt;
 &lt;p&gt;I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they/them), a Zen Buddhist, and a hobbyist musician / cook / linguist / all sorts of things.&lt;/p&gt;
 </content>
     </item>
@@ -28,11 +28,12 @@ I live in the Midwest US, where I grew up. I&amp;rsquo;m an agender person (they
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jrave.dev/about/projects/</guid>
-      <description>Professional Spry Fox - ??? Torn Banner - Various Tools Mainly, I created and supported a proprietary tool called Submit Helper, a custom P4V tool designed to kick off preflight builds, manage Jira tickets, open/close code reviews, and anything else needed before things got tossed into the depot.
-I also supported tool needs for animators, created a framework for building automated tests in UE5, and a few other things.
-Volition - Saints Row (2022) My first shipped AAA title - I worked on this from pre-production to DLC.</description>
+      <description>Professional Spry Fox - Project Friendship Currently in development, a massively multiplayer cozy life sim. Creating and supporting workflows for artists, designers, and writers.
+Torn Banner - Various Tools Mainly, I created and supported a proprietary tool called Submit Helper, a custom P4V tool designed to kick off preflight builds, manage Jira tickets, open/close code reviews, and anything else needed before things got tossed into the depot.
+I also supported tool needs for animators, created a framework for building automated tests in UE5, and a few other things.</description>
       <content>&lt;h1 id=&#34;professional&#34;&gt;Professional&lt;/h1&gt;
-&lt;h4 id=&#34;spry-fox---&#34;&gt;Spry Fox - ???&lt;/h4&gt;
+&lt;h4 id=&#34;spry-fox---project-friendship&#34;&gt;Spry Fox - Project Friendship&lt;/h4&gt;
+&lt;p&gt;Currently in development, a massively multiplayer cozy life sim. Creating and supporting workflows for artists, designers, and writers.&lt;/p&gt;
 &lt;h4 id=&#34;torn-banner---various-tools&#34;&gt;Torn Banner - Various Tools&lt;/h4&gt;
 &lt;p&gt;Mainly, I created and supported a proprietary tool called &lt;strong&gt;Submit Helper&lt;/strong&gt;, a custom P4V tool designed to kick off preflight builds, manage Jira tickets, open/close code reviews, and anything else needed before things got tossed into the depot.&lt;/p&gt;
 &lt;p&gt;I also supported tool needs for animators, created a framework for building automated tests in UE5, and a few other things.&lt;/p&gt;
@@ -44,14 +45,8 @@ Volition - Saints Row (2022) My first shipped AAA title - I worked on this from 
 &lt;p&gt;I created and supported a timeline-based scripting editor for cinematic artists, so they could do things like show/hide objects, change the time of day, or load/unload parts of the open world, over the course of a cinematic.&lt;/p&gt;
 &lt;p&gt;I also owned a few other features relating to object spawners and batch editing game components.&lt;/p&gt;
 &lt;h1 id=&#34;personal&#34;&gt;Personal&lt;/h1&gt;
-&lt;h4 id=&#34;textile&#34;&gt;Textile&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Very early work-in-progress.&lt;/em&gt; An engine-agnostic framework for systemic narrative games, plus an editor for narrative content. This is my current passion project.&lt;/p&gt;
-&lt;p&gt;The goal of Textile is to create narrative experiences with nuance, where both writers and players have more agency to make creative choices.&lt;/p&gt;
-&lt;p&gt;Textile is being developed alongside another personal project, a yet-unannounced narrative game.&lt;/p&gt;
-&lt;h4 id=&#34;game-jams&#34;&gt;Game Jams&lt;/h4&gt;
-&lt;p&gt;Here are a couple of games I worked on for a weekend or so.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://willridenourgames.itch.io/7-didnt-8-9&#34;&gt;7 Didn&amp;rsquo;t 8 9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://j-a-rave.itch.io/our-friend-sloth&#34;&gt;Our friend Sloth&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;heading&#34;&gt;???&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Very early work-in-progress.&lt;/em&gt; Highly methodical visual puzzle game. Created with &lt;a href=&#34;https://www.love2d.org/&#34;&gt;LÖVE&lt;/a&gt;. Also developing &lt;a href=&#34;https://github.com/j-a-rave/wuv2d/&#34;&gt;wuv2d&lt;/a&gt;, a library for developing games in Lua/LÖVE.&lt;/p&gt;
 </content>
     </item>
     
